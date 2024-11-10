@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="header">
+            <div class="search_box">
+                <input class="input_box" type="text" name="" id="" placeholder="Enter your Location">
+                <button class="search" id="searchbtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+
+
+
+        <div class="weather_body">
+            <img id="weather_img" class="weathericon" src="./pics/cloud.png" alt="">
+
+            <div class="weather_box">
+                <p class="teamperature">22 <sup>°C</sup></p>
+
+                <p class="description"></p>
+            </div>
+
+            <div class="weather-details"></div>
+            <div class="humidity">
+                <div class="text">
+                    <img class="humi" src="./pics/droplet.png" alt="">
+                    <span id="humidity">45%</span>
+                    <p>Humidity</p>
+                </div>
+            </div>
+
+            <div class="wind_box">
+                <img class="wind" src="./pics/wind (1).png" alt="">
+                <div class="text">
+                    <span id="wind-speed">12Km/H</span>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
